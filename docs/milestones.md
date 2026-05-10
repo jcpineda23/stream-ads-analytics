@@ -26,23 +26,28 @@
 - status: planned
 - implement synthetic producer
 - support throughput, duplicates, and skew controls
+- produce test records and milestone reports in `evidence/phase-2/`
 
 ## Phase 3
 - status: planned
 - implement first Flink aggregation
 - persist aggregates to ClickHouse
+- produce test records and milestone reports in `evidence/phase-3/`
 
 ## Phase 4
 - status: planned
 - add dedupe and event-time handling
 - validate late-event behavior
+- produce test records and milestone reports in `evidence/phase-4/`
 
 ## Phase 5
 - status: planned
 - add Top-K and query API
 - introduce Redis caching
+- produce test records and milestone reports in `evidence/phase-5/`
 
 ## Phase 6
 - status: planned
 - add dashboards and load validation
 - document bottlenecks and tradeoffs
+- produce test records and milestone reports in `evidence/phase-6/`

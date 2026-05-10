@@ -33,3 +33,7 @@ The first milestone is docs-first:
 - `docs/architecture.md`: high-level system overview
 - `docs/data-flow.md`: end-to-end event lifecycle and replay story
 - `docs/deployment.md`: local and production-style deployment views
+- `docs/testing-and-reporting.md`: how to record experiments and milestone outcomes
+
+## Evidence
+- `evidence/`: test runs, milestone reports, and interview-ready learning records
