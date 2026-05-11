@@ -27,13 +27,15 @@ The first milestone is docs-first:
 
 ## Current Status
 - Milestone 0: complete
-- Milestone 1: planned in `docs/milestone-1-plan.md`
+- Milestone 1: complete
+- Phase 2: planned in `docs/phase-2-plan.md`
 
 ## Key Docs
 - `docs/architecture.md`: high-level system overview
 - `docs/data-flow.md`: end-to-end event lifecycle and replay story
 - `docs/deployment.md`: local and production-style deployment views
 - `docs/testing-and-reporting.md`: how to record experiments and milestone outcomes
+- `docs/phase-2-plan.md`: synthetic producer scope, milestones, and test strategy
 
 ## Evidence
 - `evidence/`: test runs, milestone reports, and interview-ready learning records

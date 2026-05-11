@@ -100,7 +100,7 @@ Key risk:
 
 ### Milestone 1.4: Developer bootstrap documentation
 Status:
-- planned
+- complete
 
 Goal:
 - make the local infra self-service for future work.
@@ -121,7 +121,7 @@ Key risk:
 
 ### Milestone 1.5: Stability pass
 Status:
-- planned
+- complete
 
 Goal:
 - harden the local environment enough that Phase 2 can focus on producer code instead of infra churn.
@@ -145,8 +145,8 @@ Use these as the step-by-step approval gates:
 1. complete Milestone 1.1 by creating the Compose foundation files
 2. complete Milestone 1.2 by adding bootstrap scripts and initialization helpers
 3. complete Milestone 1.3 by adding smoke-test scripts
-4. approve Milestone 1.4 to write the operator-style README
-5. approve Milestone 1.5 to do the stabilization pass
+4. complete Milestone 1.4 by writing the operator-style README
+5. complete Milestone 1.5 by validating restart, persistence, and connectivity
 
 If you want the fastest path, we can also batch Milestones 1.1 through 1.3 together and then pause for review before docs and stabilization.
 
@@ -302,9 +302,6 @@ Milestone 1 is complete when:
 7. README polish
 
 ## Recommended Next Step
-The next implementation step should be **Milestone 1.4: Developer bootstrap documentation**.
+Phase 1 infrastructure is complete.
 
-That gives us:
-- a polished operator-style runbook for setup and recovery,
-- a cleaner onboarding path for future readers,
-- article-quality setup guidance that matches the working scripts.
+The next implementation step should be **Phase 2: Synthetic Producer**, starting with producer scaffold and valid event generation.

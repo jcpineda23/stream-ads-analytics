@@ -10,7 +10,7 @@
 - define Milestone 1 scope and exit criteria
 
 ## Phase 1
-- status: planned
+- status: complete
 - bring up local infrastructure
 - verify health checks
 - document local startup flow
@@ -19,14 +19,19 @@
 - Milestone 1.1: compose foundation, complete
 - Milestone 1.2: service initialization, complete
 - Milestone 1.3: health and smoke tests, complete
-- Milestone 1.4: developer bootstrap documentation
-- Milestone 1.5: stability pass
+- Milestone 1.4: developer bootstrap documentation, complete
+- Milestone 1.5: stability pass, complete
 
 ## Phase 2
 - status: planned
 - implement synthetic producer
 - support throughput, duplicates, and skew controls
 - produce test records and milestone reports in `evidence/phase-2/`
+- Milestone 2.1: producer scaffold
+- Milestone 2.2: valid event generation
+- Milestone 2.3: throughput and skew controls
+- Milestone 2.4: duplicate and late-event injection
+- Milestone 2.5: evidence and milestone report
 
 ## Phase 3
 - status: planned
